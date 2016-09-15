@@ -6,7 +6,7 @@
  * License: MIT
  *
  */
- 
+
 /* ================
     Custom Opacity
    ================ */
@@ -20,7 +20,26 @@ QDialog#ConnectDialog {
 }
 
 QMainWindow#MainWindow {
-  qproperty-windowOpacity: 1; /* Set this to desired opacity */
+  qproperty-windowOpacity: 0; /* Set this to desired opacity */
+}
+
+/*
+* Disabled pages
+*/
+QWidget#LookConfig {
+  qproperty-enabled: false;
+}
+
+QWidget#GlobalShortcut {
+  qproperty-enabled: false;
+}
+
+QWidget#PluginConfig {
+  qproperty-enabled: false;
+}
+
+QWidget#OverlayConfig {
+  qproperty-enabled: false;
 }
 
 /* =====================
@@ -63,7 +82,7 @@ QHeaderView::up-arrow {
 /* =========
     QSlider
    ========= */
-   
+
 QSlider::groove {
   background: #ECEFF4;
   border: 3px solid transparent;
@@ -315,7 +334,7 @@ QTextEdit#qteChat {
 /* =========
     Toolbar
    ========= */
- 
+
 QToolBar {
   background: #ECEFF4;
   border: 0;
