@@ -47,10 +47,16 @@ QWidget#OverlayConfig {
    ===================== */
 
 #MainWindow {
-  qproperty-windowTitle: "Mumble";
+  qproperty-windowTitle: "Pluto voice chat";
 }
 
+#ConfigDialog {
+  qproperty-windowTitle: "Pluto voice chat configuration";
+}
 
+#ConnectDialog {
+  qproperty-windowTitle: "Pluto voice chat server connect";
+}
 
 /* ==============
     General Code
